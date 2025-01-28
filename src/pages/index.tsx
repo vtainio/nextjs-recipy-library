@@ -21,8 +21,8 @@ export default function Home() {
         Free Netlify quickstart recipe library app using Next.js, Prisma and Aiven
       </Typography.LargeHeading>
       <Typography.Large color="grey-60">
-        A PostgreSQL® and Aiven for Caching optimized Next.js application built with Aiven, Prisma and open source data - for
-        free.
+        A PostgreSQL® and Aiven for Caching optimized Next.js application built with Aiven, Prisma and open source data
+        - for free.
       </Typography.Large>
       <Box.Flex gap="5" justifyContent="center" className="flex-wrap">
         <Button.ExternalLink
