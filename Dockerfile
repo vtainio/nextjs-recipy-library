@@ -13,6 +13,8 @@ RUN npm install
 # Copy the rest of the application files to the container
 COPY . .
 
+RUN apk add --no-cache openssl
+
 # Build the Next.js application
 RUN npm run build
 
