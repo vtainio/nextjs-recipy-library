@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Box, PageHeader, Pagination, Switch } from '@aivenio/aquarium';
 import useSWR from 'swr';
 
@@ -9,7 +9,7 @@ import fetcher from '@/lib/fetcher';
 import { ErrorResponse, RecipesResponse, RecipeStatsResponse } from '@/types';
 
 const endToEndInfo =
-  'Time is end-to-end with round trip between your serverless function and your database, results will vary depending on the region of your instances';
+  'Time is end-to-end with round trip between your backend and your database, results will vary depending on the region of your instances';
 
 export default function Recipes() {
   const [page, setPage] = useState(1);
