@@ -1,6 +1,6 @@
 # Welcome!
 
-Contributions are very welcome on the Aiven netlify-nextjs example. When contributing please keep this in mind:
+Contributions are very welcome on the Aiven recipy-library example. When contributing please keep this in mind:
 
 - Open an issue to discuss new bigger features.
 - Write code consistent with the project style and make sure the tests are passing.
